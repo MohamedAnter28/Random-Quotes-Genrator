@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  background-origin: border-box;
+}
+
+body{
+  font-family: "Rubik", sans-serif;
+  background-color: #e4e4e4;
+}
+
+.heading{
+  display: block;
+  background-color: #fff;
+  padding: 15px 12px;
+  text-align: center;
+}
+
+
+.Quote{
+  position: relative;
+  background-color: #fff;
+  margin: 20px auto;
+  max-width: 550px;
+  border-radius: 8px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.Quote .bullet{
+  position: absolute;
+  content: "";
+  background-color: rgb(255, 58, 91);
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  top: -10px;
+  left: 50%;
+  z-index: 1000;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+}
+
+
+.Quote .quote-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+
+.author{
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+.Quote .quote-container p{
+  margin: 0 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btns{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  user-select: none;
+}
+
+.automsg{
+  margin: 20px auto;
+  text-align: center;
+}
+
+.btns span{
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.generateonetime{
+  background-color: rgb(32, 178, 32);
+}
+
+.autogenerate{
+  background-color: rgb(73, 73, 255);
+}
+
+
+.stopgenerate{
+  background-color: rgb(255, 58, 58);
+}
+
+i{
+  color: #ccc;
+}
